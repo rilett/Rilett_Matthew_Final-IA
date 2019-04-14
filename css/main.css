@@ -1,0 +1,154 @@
+@media only screen and (min-width: 390px) {
+#headerText {
+  text-align: center;
+  color: black;
+  font-size: 8px;
+}
+
+p {
+  font-family: 'Arial' , sans-serif;
+  color: black;
+  font-size: 15px;
+text-align: center;
+  margin-left: 30px;
+  max-width: 960px;
+}
+
+h3 {
+  font-family: 'Arial', sans-serif;
+  color: #677464;
+  text-align: center;
+  font-size: 25px;
+  margin-left: 20px;
+}
+}
+
+#container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+#mainHeader {
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+
+#mainNav {
+  text-align: center;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+a  {
+  margin-left: 60px;
+  display: inline;
+  text-decoration: none;
+  color: #677464;
+  font-family: 'Arial', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  width: 100%;
+  text-align: center;
+}
+
+a:hover {
+  background-color: #677464;
+  transition-duration: .5s;
+  color: white;
+  padding: 5px;
+  border-radius: 2px;
+}
+
+
+
+
+#heroImage img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  margin-top: 40px;
+  border-radius: 2px;
+}
+
+
+#Welcome {
+  width: 50%;
+  float: left;
+  margin: 20px;
+}
+
+#merch img {
+  margin-left: auto;
+
+}
+
+
+
+
+
+
+@media only screen and (min-width: 500px) {
+  #Welcome {
+    margin-top: -150px;
+  }
+
+  #picture img {
+    margin-top: 70px;
+    width: 200px;
+    height: 175px;
+  }
+
+  p {
+   font-size: 18px;
+   text-align: left;  
+ }
+
+  #Welcome h3 {
+  margin-top: 175px;
+  margin-left: 30px;
+  color: #677464;
+  font-size: 30px;
+}
+
+
+h3 {
+  font-family: 'Arial', sans-serif;
+  color: #677464;
+  text-align: left;
+  font-size: 35px;
+}
+
+#divider {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #677464;
+  width: 500px;
+  height: 15px;
+  display: none;
+}
+
+#picture img {
+  height: 325px;
+  width: 300px;
+  display: block;
+  margin-right: auto;
+}
+
+#merch img {
+  padding-top:  400px;
+  height: 300px;
+  width: 300px;
+  display: block;
+  bottom: 300px;
+  margin-right: 200px;
+  margin-top: -320px;
+}
+
+
+
+}
